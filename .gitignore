@@ -2,6 +2,9 @@
 *
 !*/
 
+# Do not ignore README.md
+!/README.md
+
 # Do not ignore git files in the root of the repo.
 !/.git*
 
@@ -12,6 +15,8 @@
 !/Source/**
 !/Config/**
 !/Plugins/**
+
+!/Recordings/**
 
 # Only allow .uasset and .umap files from /Content dir.
 # They're tracked by git-lfs, don't forget to track other
